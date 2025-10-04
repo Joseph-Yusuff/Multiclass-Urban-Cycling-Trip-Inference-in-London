@@ -56,8 +56,6 @@ The analytical framework consists of four stages:
 3. **Feature Engineering & Rule-Based Labelling** – Generate supervised labels using temporal windows and POI proximity.  
 4. **Model Development & Interpretation** – Train, evaluate, and explain models using Random Forest and XGBoost.
 
-![Analytical Framework](visuals/framework_diagram.png)  
-*Figure 1. Analytical workflow for trip-purpose inference.*
 
 ---
 
@@ -100,7 +98,7 @@ Hyperparameter tuning used `RandomizedSearchCV` (5-fold CV), evaluated with **MA
 | Leisure | XGBoost | **680.58** | **0.9342** |
 | Shopping | XGBoost | **536.65** | **0.7625** |
 
-![Model Comparison](visuals/model_comparison.png)  
+![Model Comparison](visuals/comparative_rf_xgb_mae_r2.png)  
 *Figure 2. Comparative MAE and R² across trip purposes.*
 
 ---
@@ -108,10 +106,10 @@ Hyperparameter tuning used `RandomizedSearchCV` (5-fold CV), evaluated with **MA
 ## 🌍 Spatial Predictions
 Predictions were extended to **3,079 unlabelled hexagons** to estimate city-wide trip purposes.
 
-![Predictions RF](visuals/rf_predictions_map.png)  
+![Predictions RF](visuals/Random_Forest_predicted_cycling_trip_volumes.png)  
 *Figure 3. Random Forest predictions for unlabelled hexagons.*
 
-![Predictions XGB](visuals/xgb_predictions_map.png)  
+![Predictions XGB](visuals/XGBoost_predicted_cycling_trip_volumes.png)  
 *Figure 4. XGBoost predictions for unlabelled hexagons.*
 
 The hybrid configuration combined RF stability in structured areas with XGB flexibility in diffuse outer boroughs.
@@ -121,7 +119,7 @@ The hybrid configuration combined RF stability in structured areas with XGB flex
 ## 🔍 Explainability with SHAP
 SHAP (Shapley Additive Explanations) quantified the contribution of each feature to predictions.
 
-![SHAP Summary](visuals/shap_summary.png)  
+![SHAP Summary](visuals/shap_summary_grid.png)  
 *Figure 5. SHAP feature importance for trip-purpose prediction.*
 
 **Top predictors by category:**
@@ -142,5 +140,3 @@ This ensured the model was not a “black box” and that feature effects were i
 - The **hybrid RF–XGB model** improved accuracy by leveraging algorithm strengths across purpose types.
 
 ---
-
-## 🧰 Repository Structure
