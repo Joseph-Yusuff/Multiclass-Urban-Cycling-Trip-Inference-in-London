@@ -119,8 +119,11 @@ The hybrid configuration combined RF stability in structured areas with XGB flex
 ## 🔍 Explainability with SHAP
 SHAP (Shapley Additive Explanations) quantified the contribution of each feature to predictions.
 
-![SHAP Summary](/visuals/shap_summary_grid.png)  
-*Figure 5. SHAP feature importance for trip-purpose prediction.*
+![SHAP Summary](/visuals/xgb_shap_summary_grid.png)  
+*Figure 5. SHAP feature importance for trip-purpose prediction using XGboost.*
+
+![SHAP Summary](/visuals/random_forest_shap_summary_grid.png)  
+*Figure 6. SHAP feature importance for trip-purpose prediction using XGboost.*
 
 **Top predictors by category:**
 - **Commute:** Proximity to transport hubs, trip intensity  
