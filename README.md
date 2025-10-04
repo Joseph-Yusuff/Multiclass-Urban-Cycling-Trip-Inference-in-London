@@ -143,37 +143,32 @@ This ensured the model was not a “black box” and that feature effects were i
 - The **hybrid RF–XGB model** improved accuracy by leveraging algorithm strengths across purpose types.
 
 ---
-🧾 License
+---
 
-This project is licensed under the MIT License – see the LICENSE
- file for details.
+## 🧾 License
+This project is licensed under the **MIT License**.  
+You are free to use, modify, and distribute this software for both commercial and non-commercial purposes, provided that proper attribution is given to the original author.  
 
-🙌 Acknowledgements
+See the [LICENSE](LICENSE) file for full details.
 
-Supervised by Dr Tongxin Chen, University of Hull.
-Data from Transport for London (TfL) and OpenStreetMap.
-Developed as part of the MSc in Artificial Intelligence and Data Science (2024–2025).
+---
 
-📚 Citation
+## 🙌 Acknowledgements
 
-If you use this repository, please cite:
+Data sources include:
+- **Transport for London (TfL)** — Cycle Hire dataset and station metadata  
+- **OpenStreetMap (OSM)** — Geospatial context for parks, schools, retail, and transport hubs  
+- **Digimap (UK)** — Supplementary land-use data  
 
-Yusuff, J. (2025). Multiclass Inference of Urban Cycling Trip Purposes Using Geospatial Big Data:
-A Post-Pandemic Analysis of London Cycle Hire Patterns. University of Hull.
+---
 
-🚧 Future Work
+## 📚 Citation
+If you use this repository, please cite the following work:
 
-Incorporate dynamic covariates (weather, footfall, events).
+> **Yusuff, J. (2025).**  
+> *Multiclass Inference of Urban Cycling Trip Purposes Using Geospatial Big Data:  
+> A Post-Pandemic Analysis of London Cycle Hire Patterns.*  
+> University of Hull, MSc in Artificial Intelligence and Data Science.  
 
-Replace Euclidean with network-based distances.
 
-Implement spatial cross-validation and uncertainty quantification.
 
-Extend framework to shared e-bikes and scooters.
-
-🧭 Contact
-
-Author: Joseph Yusuff
-📧 joseph.yusuff12@gmail.com
-
-🔗 LinkedIn
