@@ -109,7 +109,7 @@ Predictions were extended to **3,079 unlabelled hexagons** to estimate city-wide
 ![Predictions RF](Visuals/Random Forest predicted cycling trip volumes.png)  
 *Figure 3. Random Forest predictions for unlabelled hexagons.*
 
-![Predictions XGB](Visuals/XGBoost_predicted_cycling_trip_volumes.png)  
+![Predictions XGB](Visuals/XGBoost predicted cycling trip volumes.png)  
 *Figure 4. XGBoost predictions for unlabelled hexagons.*
 
 The hybrid configuration combined RF stability in structured areas with XGB flexibility in diffuse outer boroughs.
