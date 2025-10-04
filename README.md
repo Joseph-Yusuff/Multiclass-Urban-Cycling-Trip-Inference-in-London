@@ -98,7 +98,7 @@ Hyperparameter tuning used `RandomizedSearchCV` (5-fold CV), evaluated with **MA
 | Leisure | XGBoost | **680.58** | **0.9342** |
 | Shopping | XGBoost | **536.65** | **0.7625** |
 
-![Model Comparison](visuals/comparative_rf_xgb_mae_r2.png)  
+![Model Comparison](Visuals/comparative_rf_xgb_mae_r2.png)  
 *Figure 2. Comparative MAE and R² across trip purposes.*
 
 ---
@@ -109,7 +109,7 @@ Predictions were extended to **3,079 unlabelled hexagons** to estimate city-wide
 ![Predictions RF](Visuals/Random_Forest_predicted_cycling_trip_volumes.png)  
 *Figure 3. Random Forest predictions for unlabelled hexagons.*
 
-![Predictions XGB](visuals/XGBoost_predicted_cycling_trip_volumes.png)  
+![Predictions XGB](Visuals/XGBoost_predicted_cycling_trip_volumes.png)  
 *Figure 4. XGBoost predictions for unlabelled hexagons.*
 
 The hybrid configuration combined RF stability in structured areas with XGB flexibility in diffuse outer boroughs.
@@ -119,10 +119,10 @@ The hybrid configuration combined RF stability in structured areas with XGB flex
 ## 🔍 Explainability with SHAP
 SHAP (Shapley Additive Explanations) quantified the contribution of each feature to predictions.
 
-![SHAP Summary](/visuals/xgb_shap_summary_grid.png)  
+![SHAP Summary](/Visuals/xgb_shap_summary_grid.png)  
 *Figure 5. SHAP feature importance for trip-purpose prediction using XGboost.*
 
-![SHAP Summary](/visuals/random_forest_shap_summary_grid.png)  
+![SHAP Summary](/Visuals/random_forest_shap_summary_grid.png)  
 *Figure 6. SHAP feature importance for trip-purpose prediction using XGboost.*
 
 **Top predictors by category:**
