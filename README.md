@@ -106,7 +106,7 @@ Hyperparameter tuning used `RandomizedSearchCV` (5-fold CV), evaluated with **MA
 ## 🌍 Spatial Predictions
 Predictions were extended to **3,079 unlabelled hexagons** to estimate city-wide trip purposes.
 
-![Predictions RF](Visuals/Random Forest predicted cycling trip volumes.png)  
+![Predictions RF](Visuals/Random_Forest_predicted_cycling_trip_volumes.png)  
 *Figure 3. Random Forest predictions for unlabelled hexagons.*
 
 ![Predictions XGB](visuals/XGBoost_predicted_cycling_trip_volumes.png)  
@@ -119,7 +119,7 @@ The hybrid configuration combined RF stability in structured areas with XGB flex
 ## 🔍 Explainability with SHAP
 SHAP (Shapley Additive Explanations) quantified the contribution of each feature to predictions.
 
-![SHAP Summary](visuals/shap_summary_grid.png)  
+![SHAP Summary](/visuals/shap_summary_grid.png)  
 *Figure 5. SHAP feature importance for trip-purpose prediction.*
 
 **Top predictors by category:**
