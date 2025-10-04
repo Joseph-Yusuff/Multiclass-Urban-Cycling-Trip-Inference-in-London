@@ -106,7 +106,7 @@ Hyperparameter tuning used `RandomizedSearchCV` (5-fold CV), evaluated with **MA
 ## 🌍 Spatial Predictions
 Predictions were extended to **3,079 unlabelled hexagons** to estimate city-wide trip purposes.
 
-![Predictions RF](visuals/Random_Forest_predicted_cycling_trip_volumes.png)  
+![Predictions RF](Visuals/Random Forest predicted cycling trip volumes.png)  
 *Figure 3. Random Forest predictions for unlabelled hexagons.*
 
 ![Predictions XGB](visuals/XGBoost_predicted_cycling_trip_volumes.png)  
